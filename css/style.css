@@ -1,0 +1,23 @@
+#main{
+    display: flex;
+    flex-direction: column;
+}
+
+#workshop{
+    margin: auto;
+}
+/* #workShopImage{
+    margin: auto;
+} */
+/* #leftBody{
+    height: 100;
+    width: 100;
+} */
+#Organizing-Co-chairs{
+    height: 100px;
+    width: 100px;
+}
+#Technical-Program-Commitee{
+    height: 100px;
+    width: 100px;
+}
