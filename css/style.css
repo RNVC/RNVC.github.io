@@ -14,10 +14,16 @@
     width: 100;
 } */
 #Organizing-Co-chairs{
-    height: 100px;
-    width: 100px;
+    /* height: 100px;
+    width: 100px; */
+    height: auto;
+    width: auto;
 }
 #Technical-Program-Commitee{
     height: 100px;
     width: 100px;
+    
+}
+.name{
+    font-weight: bold;
 }
