@@ -7,82 +7,123 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="css/style.css" rel="stylesheet">
     <link rel="icon" href="image/favicon.ico">
+    <title>IMC</title>
 </head>
 
 <body>
-    <div id="workshop">
-        <img src="image/workshop.jpg" id="workShopImage"></img>
+
+    <!-- 导航栏 -->
+    <div class="site-wrap">
+        <div class="site-navbar">
+            <nav class="site-navigation">
+                <a href="https://www.2023.ieeeicme.org" width="50px">
+                    <h1>ICME 2023</h1>
+                </a>
+                <ul class="site-menu">
+
+                    <li>
+                        <a href="index.html">HOME</a>
+                    </li>
+                    <li>
+                        <a href="index.html#subject areas">SUBJECT AREAS</a>
+                    </li>
+                    <li>
+                        <a href="index.html#important dates">IMPORTANT DATES</a>
+                    </li>
+                    <li>
+                        <a href="index.html#organizing Co-chairs">ORGANIZING CO-CHAIRS</a>
+                    </li>
+                    <li>
+                        <a href="index.html#paper submission">PAPER SUBMISSION</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+        <div class="workshop">
+            <img src="image/workshop.jpg" id="workShopImage" </img>
+        </div>
     </div>
-    <div id="main">
+
+
+
+    <div class="main">
         <!-- top -->
-        <div id="leftBody">
+        <div class="left">
             <!-- left-top -->
-            <div id="Organizing-Co-chairs">
-                <li class="leftContainer">Organizing Co-chairs</li>
-                <li><span class="name-organization">
-                        <strong>Zhan Ma</strong>, Nanjing Univesity, China
-                    </span></li>
-
-                <li><span class="name-organization">
-                        <strong>Giuseppe Valenzise</strong>, CNRS, France
-                    </span></li>
-
-                <li><span class="name-organization">
-                        <strong>Dandan Ding</strong>, Hangzhou Normal University, China
-                    </span></li>
-                <li><span class="name-organization">
-                        <strong>Faranak Tohidi</strong>, Charles Sturt University, Australia
-                    </span></li>
-                <li><span class="name-organization">
-                        <strong>Pan Gao</strong>, Nanjing University of Aeronautics and Astronautics, China
-                    </span></li>
-                <li><span class="name-organization">
-                        <strong>Danillo Graziosi</strong>, Sony, US
-                    </span></li>
+            <div class="Organizing-Co-chairs">
+                <span class="lefthead" id="organizing Co-chairs"><strong>Organizing Co-chairs</strong></span>
+                <ul class="leftContainer">
+                    <li><span class="name-organization">
+                            <strong>Zhan Ma</strong>, Nanjing Univesity, China
+                        </span></li>
+                    <li><span class="name-organization">
+                            <strong>Giuseppe Valenzise</strong>, CNRS, France
+                        </span></li>
+                    <li><span class="name-organization">
+                            <strong>Dandan Ding</strong>, Hangzhou Normal University, China
+                        </span></li>
+                    <li><span class="name-organization">
+                            <strong>Faranak Tohidi</strong>, Charles Sturt University, Australia
+                        </span></li>
+                    <li><span class="name-organization">
+                            <strong>Pan Gao</strong>, Nanjing University of Aeronautics and Astronautics, China
+                        </span></li>
+                    <li><span class="name-organization">
+                            <strong>Danillo Graziosi</strong>, Sony, US
+                        </span></li>
+                </ul>
             </div>
             <!-- left-down -->
-            <div id="Technical-Program-Commitee">
-                <li class="leftContainer">Technical Program Commitee</li>
-                <li><span class="name-organization">
-                        <strong>Dong Tian</strong>, InterDigital, USA
-                    </span></li>
-                <li><span class="name-organization">
-                        <strong>Fernando Pereira</strong>, Instituto Superior Técnico, Portugal
-                    </span></li>
-                <li><span class="name-organization"><strong>Marco Carli</strong>, Roma Tre University, Italy</span></li>
-                <li><span class="name-organization"><strong>Patrick le Callet</strong>, University of Nantes,
-                        France</span></li>
-                <li><span class="name-organization"><strong>Simone Milani</strong>, University of Padova, Italy</span>
-                </li>
-                <li><span class="name-organization"><strong>Wei Hu</strong>, Peking University, China</span></li>
-                <li><span class="name-organization"><strong>Federica Battisti</strong>, University of Padova,
-                        Italy</span></li>
-                <li><span class="name-organization"><strong>Jean-Eudes Marvie</strong>, InterDigital, France</span></li>
-                <li><span class="name-organization"><strong>Lu Zhang</strong>, INSA Rennes, France</span></li>
-                <li><span class="name-organization"><strong>Zhu Li</strong>, University of Missouri-Kansas City,
-                        USA</span></li>
-                <li><span class="name-organization"><strong>Emin Zerman</strong>, Mid Sweden University, Sweden</span>
-                </li>
-                <li><span class="name-organization"><strong>Laura Toni</strong>,UCL,UK</span></li>
-                <li><span class="name-organization"><strong>Mylène Farias</strong>,University of Brasilia, Brasil</span>
-                </li>
-                <li><span class="name-organization"><strong>Mohammad Zavid Parvez</strong>,Australian Catholic
-                        University, Australia</span></li>
-                <li><span class="name-organization"><strong>Ashek Ahmmed</strong>, Charles Sturt University,
-                        Australia</span></li>
-                <li><span class="name-organization"><strong>Subrata Chakraborty</strong>,University of New
-                        England</span></li>
-                <li><span class="name-organization"><strong>Motiur Rahaman</strong>, Charles Sturt University,
-                        Australia</span></li>
-                <li><span class="name-organization"><strong>Hui Yuan</strong>, Shandong University, China</span></li>
-                <li><span class="name-organization"><strong>Wei Gao</strong>, Peking University, China</span></li>
-                <li><span class="name-organization"><strong>Zhengwei Wang</strong>, ByteDance AI Lab, China</span></li>
-
+            <div class="Technical-Program-Commitee">
+                <span class="lefthead"><strong>Technical Program Commitee</strong></span>
+                <ul class="leftContainer">
+                    <li><span class="name-organization">
+                            <strong>Dong Tian</strong>, InterDigital, USA
+                        </span></li>
+                    <li><span class="name-organization">
+                            <strong>Fernando Pereira</strong>, Instituto Superior Técnico, Portugal
+                        </span></li>
+                    <li><span class="name-organization"><strong>Marco Carli</strong>, Roma Tre University, Italy</span>
+                    </li>
+                    <li><span class="name-organization"><strong>Patrick le Callet</strong>, University of Nantes,
+                            France</span></li>
+                    <li><span class="name-organization"><strong>Simone Milani</strong>, University of Padova,
+                            Italy</span>
+                    </li>
+                    <li><span class="name-organization"><strong>Wei Hu</strong>, Peking University, China</span></li>
+                    <li><span class="name-organization"><strong>Federica Battisti</strong>, University of Padova,
+                            Italy</span></li>
+                    <li><span class="name-organization"><strong>Jean-Eudes Marvie</strong>, InterDigital, France</span>
+                    </li>
+                    <li><span class="name-organization"><strong>Lu Zhang</strong>, INSA Rennes, France</span></li>
+                    <li><span class="name-organization"><strong>Zhu Li</strong>, University of Missouri-Kansas City,
+                            USA</span></li>
+                    <li><span class="name-organization"><strong>Emin Zerman</strong>, Mid Sweden University,
+                            Sweden</span>
+                    </li>
+                    <li><span class="name-organization"><strong>Laura Toni</strong>,UCL,UK</span></li>
+                    <li><span class="name-organization"><strong>Mylène Farias</strong>,University of Brasilia,
+                            Brasil</span>
+                    </li>
+                    <li><span class="name-organization"><strong>Mohammad Zavid Parvez</strong>,Australian Catholic
+                            University, Australia</span></li>
+                    <li><span class="name-organization"><strong>Ashek Ahmmed</strong>, Charles Sturt University,
+                            Australia</span></li>
+                    <li><span class="name-organization"><strong>Subrata Chakraborty</strong>,University of New
+                            England</span></li>
+                    <li><span class="name-organization"><strong>Motiur Rahaman</strong>, Charles Sturt University,
+                            Australia</span></li>
+                    <li><span class="name-organization"><strong>Hui Yuan</strong>, Shandong University, China</span>
+                    </li>
+                    <li><span class="name-organization"><strong>Wei Gao</strong>, Peking University, China</span></li>
+                    <li><span class="name-organization"><strong>Zhengwei Wang</strong>, ByteDance AI Lab, China</span>
+                    </li>
+                </ul>
             </div>
         </div>
-        <div id="rightBody">
+        <div class="right">
             <!-- right-top -->
-            <div id="Introduction">
+            <div class="Introduction">
                 <p class="article">
                     The use of immersive media (e.g., point clouds, light fields, meshes, etc) enables mixing the
                     physical and virtual world to create an unprecedented experience for applications like AR/VR
@@ -105,34 +146,55 @@
                     develop Immersive Media Compression systems and technologies.
                 </p>
             </div>
-            <div id="topics">
-                <span id="target">We seek unpublished high-quality papers within, but not limited to, the following
+            <div class="topics">
+                <span class="target">We seek unpublished high-quality papers within, but not limited to, the following
                     topics:</span>
-                <li class="following-topics"><span>Immersive video representations with up to 6 degrees of
-                        freedom(omnidirectional,plenoptic, volumetric)</span></li>
-                <li class="following-topics"><span>Immersive audio-visual coding</span></li>
-                <li class="following-topics"><span>Subjective and objective quality assessment</span></li>
-                <li class="following-topics"><span>Conventional and learning-based coding of immersive media</span></li>
-                <li class="following-topics"><span>Streaming solutions for immersive video</span></li>
-                <li class="following-topics"><span>Energy-efficient coding and processing of immersive media</span></li>
-                <li class="following-topics"><span>Networked immersive systems</span></li>
-
-            </div>
-            <div id="Important-Dates">
-                <span class="title"><strong>important dates</strong></span>
                 <ul>
-                    <li class="date"><span>Paper submission due March 23, 2023</span></li>
-                    <li class="date">Decision notification April 14, 2023</li>
-                    <li class="date">Camera ready submission April 21, 2023</li>
+                    <li class="following-topics"><span>Immersive video representations with up to 6 degrees of
+                            freedom(omnidirectional,plenoptic, volumetric)</span></li>
+                    <li class="following-topics"><span>Immersive audio-visual coding</span></li>
+                    <li class="following-topics"><span>Subjective and objective quality assessment</span></li>
+                    <li class="following-topics"><span>Conventional and learning-based coding of immersive media</span>
+                    </li>
+                    <li class="following-topics"><span>Streaming solutions for immersive video</span></li>
+                    <li class="following-topics"><span>Energy-efficient coding and processing of immersive media</span>
+                    </li>
+                    <li class="following-topics"><span>Networked immersive systems</span></li>
                 </ul>
             </div>
-            <div id="Paper-Submission">
-                <span class="title"><strong>Paper Submission</strong></span>
+            <div class="Important-Dates">
+                <span class="title" id="important dates"><strong>Important dates</strong></span>
+                <ul>
+                    <li class="date"><span>Submission deadline: <strong style="color:red;">March 23</strong> (we might give an extension of
+                            one week if needed);</span></li>
+                    <li class="date"><span>Review submission deadline: <strong style="color:red;">April 18</strong>;</span></li>
+                    <li class="date"><span>Author notification: <strong style="color:red;">April 24</strong>;</span></li>
+                    <li class="date"><span>Camera-ready: <strong style="color: red;">May 1st</strong>;</span></li>
+                </ul>
+            </div>
+
+            <div class="duration">
+                <span class="title"><strong>Duration of the workshop: Full day</strong> </span>
+            </div>
+
+            <div class="Subject-areas">
+                <span class="title" id="subject areas"><strong>Subject areas</strong></span>
+                <ul>
+                    <li class="areas"><span>Immersive video coding (omnidirectional, light fields, point clouds/meshes, etc.)</span></li>
+                    <li class="areas"><span>Immersive video processing and enhancement</span></li>
+                    <li class="areas"><span>Immersive multimedia (audio visual and multimodal)</span></li>
+                    <li class="areas"><span>Quality of Experience for Immersive multimedia</span></li>
+                    <li class="areas"><span>Streaming and networked solutions for Immersive multimedia</span></li>
+                </ul>
+            </div>
+            <div class="paper-Submission">
+                <span class="title" id="paper submission"><strong>Paper Submission</strong></span>
                 <p>
                     Full-length papers of 6 pages in length reporting on original research are solicited.
                     The reviewing is double blind and the paper submission link is:
-                    <a href="https://cmt3.research.microsoft.com/ICMEW2023.">https://cmt3.research.microsoft.com/ICMEW2023.</a>
-                    For detailed instructions, see <a href="http://2023.ieeeicme.org/.">http://2023.ieeeicme.org/.</a>
+                    <a
+                        href="https://cmt3.research.microsoft.com/ICMEW2023">https://cmt3.research.microsoft.com/ICMEW2023</a>.
+                    For detailed instructions, see <a href="http://2023.ieeeicme.org/">http://2023.ieeeicme.org/</a>.
                 </p>
             </div>
         </div>
