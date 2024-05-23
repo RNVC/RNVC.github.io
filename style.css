@@ -168,5 +168,23 @@ body{
     margin-top: 5px;
     font-size: 16px;
 }
+.session-abstract, .invited-papers {
+    margin-bottom: 20px;
+}
 
+.abstract-text, .paper-abstract {
+    text-align: justify;
+    line-height: 1.5;
+}
+
+.paper-title {
+    display: block;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.paper-authors {
+    display: block;
+    margin-top: 5px;
+}
 
