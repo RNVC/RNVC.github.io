@@ -64,7 +64,7 @@ body{
 }
 /* 主图片 */
 .workshop{
-    height: auto;
+    height: 468px;
     width: 100%;
     position: absolute;
     top:72px;
