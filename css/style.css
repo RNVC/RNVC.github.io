@@ -62,9 +62,9 @@ body{
     top:10%;
     left:15px;
 }
-/* 图片 */
+/* 主图片 */
 .workshop{
-    height: 468px;
+    height: auto;
     width: 100%;
     position: absolute;
     top:72px;
