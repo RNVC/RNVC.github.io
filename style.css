@@ -167,6 +167,7 @@ body{
 }
 
 .chair-bio {
+    width: 30%;
     text-align: justify;
     margin-top: 5px;
     font-size: 16px;
