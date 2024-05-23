@@ -93,8 +93,8 @@ body{
     /* left */
         /* 组织者 */
 .left {
-    flex: 1;
-    padding-right: 20px; 
+    width: 30%;
+    margin-left: 30px; 
 }
 .Organizing-Co-chairs{
     width:350px;
@@ -117,8 +117,10 @@ body{
         /* workshop */
 
 .right {
-    flex: 3; 
-    padding: 0 30px 0 20px; 
+    width: 30%; 
+    margin-top: 0;
+    padding: 0; 
+    margin-right: 30px;
 }
 .Introduction p{
     margin-block-start:0;
