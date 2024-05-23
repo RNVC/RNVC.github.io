@@ -93,7 +93,6 @@ body{
     /* left */
         /* 组织者 */
 .left {
-    width: 30%;
     margin-left: 30px; 
 }
 .Organizing-Co-chairs{
@@ -117,7 +116,6 @@ body{
         /* workshop */
 
 .right {
-    width: 30%; 
     margin-top: 0;
     padding: 0; 
     margin-right: 30px;
@@ -167,7 +165,6 @@ body{
 }
 
 .chair-bio {
-    width: 30%;
     text-align: justify;
     margin-top: 5px;
     font-size: 16px;
