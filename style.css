@@ -144,6 +144,29 @@ body{
 .Program li{
     list-style-type: none;
 }
+.section-title {
+    font-size: 22px;
+}
 
+.chairs-container {
+    padding: 0;
+    margin-top: 10px;
+}
+
+.chair-name {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.chair-email {
+    font-size: 18px;
+    margin-left: 10px;
+}
+
+.chair-bio {
+    text-align: justify;
+    margin-top: 5px;
+    font-size: 16px;
+}
 
 
