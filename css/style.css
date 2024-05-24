@@ -146,8 +146,8 @@ body{
 }
 
 .chair-photo {
-    width: 100px; /* 图片宽度 */
-    height: 100px; /* 图片高度 */
+    width: 50px; /* 图片宽度 */
+    height: 50px; /* 图片高度 */
     border-radius: 50%; /* 若需圆形图片可用 */
     margin-right: 20px; /* 图片与文本之间的间隔 */
     object-fit: cover; /* 保持图片比例 */
