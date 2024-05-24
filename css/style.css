@@ -170,7 +170,7 @@ body{
     display: flex; /* 设置flex布局 */
     justify-content: center; /* 水平居中 */
     flex-wrap: wrap; /* 允许项在需要时换行 */
-    gap: 100px; /* 设置项与项之间的间隔 */
+    gap: 70px; /* 设置项与项之间的间隔 */
 }
 
 .chair-item {
