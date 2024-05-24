@@ -63,16 +63,23 @@ body{
     left:15px;
 }
 /* 主图片 */
-.workshop{
-    max-width: 100%;
-    height: auto;
+.workshop {
+    height: 468px;
+    width: 100%;
     position: absolute;
-    top:72px;
+    top: 72px;
     z-index: 1;
     background-image: url(../image/20240524133224.jpg);
     background-repeat: no-repeat;
-    background-position-x: center;
+    background-position: center center; /* 同时针对水平和垂直方向居中 */
     background-size: cover;
+}
+@media (max-width: 768px) {
+    .workshop {
+        /* 当视窗宽度小于768px时，可以根据需求调整高度 */
+        height: auto;
+        /* 其他样式调整可以继续添加 */
+    }
 }
 /* .workshop img{
     width: 1440px;
