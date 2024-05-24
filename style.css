@@ -86,6 +86,7 @@ body{
 */
 .main {
     display: flex;
+    justify-content: center; /* 水平居中 */
     position: absolute;
     top: 565px;
     width: 100%; 
