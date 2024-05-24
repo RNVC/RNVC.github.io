@@ -77,7 +77,7 @@ body{
 @media (max-width: 1440px) {
     .workshop {
         /* 当视窗宽度小于768px时，可以根据需求调整高度 */
-        height: 120px;
+        height: 263px;
         /* 其他样式调整可以继续添加 */
     }
 }
@@ -103,7 +103,7 @@ body{
 @media (max-width: 1440px) {
     .main {
         /* 当视窗宽度小于768px时，可以根据需求调整高度 */
-        top: 220px;
+        top: 360px;
         /* 其他样式调整可以继续添加 */
     }
 }
