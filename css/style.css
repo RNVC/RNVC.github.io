@@ -74,10 +74,10 @@ body{
     background-position: center center; /* 同时针对水平和垂直方向居中 */
     background-size: cover;
 }
-@media (max-width: 768px) {
+@media (max-width: 1440px) {
     .workshop {
         /* 当视窗宽度小于768px时，可以根据需求调整高度 */
-        height: 468px;
+        height: auto;
         /* 其他样式调整可以继续添加 */
     }
 }
@@ -187,7 +187,7 @@ body{
 }
 
 /* 可以根据需要添加媒体查询来处理不同屏幕尺寸的布局 */
-@media (max-width: 768px) {
+@media (max-width: 1440px) {
     .chairs-container {
         flex-direction: column;
     }
