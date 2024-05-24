@@ -95,14 +95,15 @@ body{
     display: flex;
     justify-content: center; /* 水平居中 */
     position: absolute;
-    top:565px;
+    top: 565px;
+    width: 100%; /* 或者指定足以容纳 .left 的宽度 */
+    /* 可能需要设置一个合适的高度 */
+    height: auto; /* 根据内容自适应高度 */
 }
-    /* left */
-        /* 组织者 */
+
 .left{
     width: 1140px;
-    margin-left: 0px;
-    margin-right: 0px;
+    /* margin-left 和 margin-right 不需要设置，除非需要特定的偏移 */
 }
 .Organizing-Co-chairs{
     width:350px;
