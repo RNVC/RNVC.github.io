@@ -92,6 +92,7 @@ body{
     /* left */
         /* 组织者 */
 .left{
+    width: 50%;
     margin-left: 100px;
 }
 .Organizing-Co-chairs{
@@ -115,6 +116,7 @@ body{
         /* workshop */
 
 .right{
+    width: 50%;
     margin-top: 0;
     padding: 0;
     margin-right: 100px;
