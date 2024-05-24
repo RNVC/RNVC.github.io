@@ -64,12 +64,12 @@ body{
 }
 /* 主图片 */
 .workshop{
-    height: 960px;
+    height: 468px;
     width: 100%;
     position: absolute;
     top:72px;
     z-index: 1;
-    background-image: url(../image/Card1-Purdue-StadiumMall-2023_KAL_1361-1920x960-1.jpg);
+    background-image: url(../image/MTXX_MH20240524_091017380.jpg);
     background-repeat: no-repeat;
     background-position-x: center;
     background-size: cover;
