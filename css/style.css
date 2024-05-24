@@ -134,6 +134,23 @@ body{
 .paper-Submission p a{
     color:skyblue;
 }
+.chairs-container {
+    list-style: none;
+    padding: 0;
+}
 
+.chair-item {
+    display: flex;
+    align-items: flex-start; /* 若照片高于文本内容，可使用flex-start对齐至顶部 */
+    margin-bottom: 20px; /* 人物介绍之间的间隔 */
+}
+
+.chair-photo {
+    width: 100px; /* 图片宽度 */
+    height: 100px; /* 图片高度 */
+    border-radius: 50%; /* 若需圆形图片可用 */
+    margin-right: 20px; /* 图片与文本之间的间隔 */
+    object-fit: cover; /* 保持图片比例 */
+}
 
 
