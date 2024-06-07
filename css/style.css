@@ -108,7 +108,7 @@ body{
     }
 }
 .left{
-    width: 1312px;
+    width: 1080px;
     
     /* margin-left 和 margin-right 不需要设置，除非需要特定的偏移 */
 }
