@@ -72,7 +72,7 @@ body{
     background-image: url(../image/20240524133224.jpg);
     background-repeat: no-repeat;
     background-position: center center; /* 同时针对水平和垂直方向居中 */
-    background-size: cover;
+    background-size: contain;
 }
 @media (max-width: 1440px) {
     .workshop {
