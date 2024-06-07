@@ -74,7 +74,7 @@ body{
     background-position: center center; /* 同时针对水平和垂直方向居中 */
     background-size: contain;
 }
-@media (max-width: 1440px) {
+@media (max-width: 1080px) {
     .workshop {
         /* 当视窗宽度小于768px时，可以根据需求调整高度 */
         height: 120px;
@@ -100,7 +100,7 @@ body{
     /* 可能需要设置一个合适的高度 */
     height: auto; /* 根据内容自适应高度 */
 }
-@media (max-width: 1440px) {
+@media (max-width: 1080px) {
     .main {
         /* 当视窗宽度小于768px时，可以根据需求调整高度 */
         top: 217px;
@@ -169,7 +169,7 @@ body{
     display: flex; /* 设置flex布局 */
     justify-content: center; /* 水平居中 */
     flex-wrap: wrap; /* 允许项在需要时换行 */
-    gap: 70px; /* 设置项与项之间的间隔 */
+    gap: 50px; /* 设置项与项之间的间隔 */
 }
 
 .chair-item {
@@ -194,7 +194,7 @@ body{
 }
 
 /* 可以根据需要添加媒体查询来处理不同屏幕尺寸的布局 */
-@media (max-width: 1440px) {
+@media (max-width: 1080px) {
     .chairs-container {
         flex-direction: column;
     }
