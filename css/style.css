@@ -66,9 +66,12 @@ body{
 .workshop {
     height: 468px;
     width: 100%;
-    position: absolute;
-    top: 72px;
-    z-index: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+/*  position: absolute;
+    z-index: 1; */
+    margin-top: 72px;
     background-image: url(../image/20240524133224.jpg);
     background-repeat: no-repeat;
     background-position: center center; /* 同时针对水平和垂直方向居中 */
@@ -94,19 +97,21 @@ body{
 .main{
     display: flex;
     justify-content: center; /* 水平居中 */
-    position: absolute;
-    top: 565px;
-    width: 100%; /* 或者指定足以容纳 .left 的宽度 */
-    /* 可能需要设置一个合适的高度 */
-    height: auto; /* 根据内容自适应高度 */
+    position: relative;
+/*  top: 565px;
+    width: 100%; 
+    height: auto; */
+    width: 100%;
+    height: auto;
+    margin-top: 40px;
 }
-@media (max-width: 1080px) {
+/* @media (max-width: 1080px) {
     .main {
         /* 当视窗宽度小于768px时，可以根据需求调整高度 */
         top: 217px;
         /* 其他样式调整可以继续添加 */
     }
-}
+} */
 .left{
     width: 1080px;
     
