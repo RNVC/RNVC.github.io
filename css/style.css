@@ -79,9 +79,9 @@ body{
 }
 @media (max-width: 1080px) {
     .workshop {
-        /* 当视窗宽度小于768px时，可以根据需求调整高度 */
+       
         height: 120px;
-        /* 其他样式调整可以继续添加 */
+        
     }
 }
 /* .workshop img{
@@ -107,9 +107,9 @@ body{
 }
 /* @media (max-width: 1080px) {
     .main {
-        /* 当视窗宽度小于768px时，可以根据需求调整高度 */
+       
         top: 217px;
-        /* 其他样式调整可以继续添加 */
+        
     }
 } */
 .left{
