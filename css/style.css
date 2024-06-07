@@ -70,8 +70,8 @@ body{
     justify-content: center;
     align-items: center;
 /*  position: absolute;
-    z-index: 1; */
-    margin-top: 72px;
+    z-index: 1; 
+    margin-top: 72px;*/
     background-image: url(../image/20240524133224.jpg);
     background-repeat: no-repeat;
     background-position: center center; /* 同时针对水平和垂直方向居中 */
@@ -103,7 +103,7 @@ body{
     height: auto; */
     width: 100%;
     height: auto;
-    margin-top: 40px;
+/*     margin-top: 40px; */
 }
 /* @media (max-width: 1080px) {
     .main {
